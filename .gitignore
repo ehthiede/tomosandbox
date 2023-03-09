@@ -1,0 +1,14 @@
+*.py[cod]
+__pycache__
+
+*.egg
+*.egg-info
+*.ipynb_checkpoints
+
+*.swp
+*.swo
+
+.tox/
+
+docs/_build
+dist
