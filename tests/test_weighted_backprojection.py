@@ -1,6 +1,9 @@
 import numpy as np
 from tomo_sandbox.utils import build_2d_rotation_matrix
-from tomo_sandbox.weighted_backprojection import weighted_backprojection_1d, apply_ramp_filter
+from tomo_sandbox.weighted_backprojection import (
+    weighted_backprojection_1d,
+    apply_ramp_filter,
+)
 
 
 def _perform_single_projection(angle: float, ax: np.ndarray, centers: np.ndarray):
